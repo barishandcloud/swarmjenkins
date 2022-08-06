@@ -8,4 +8,4 @@ services:
       restart_policy:
         condition: on-failure
       placement:
-        constraints: [node.hostname == swarmvm1]
+        constraints: [node.hostname == vm2]
