@@ -13,7 +13,7 @@ pipeline {
         //sh "docker stack deploy -c stack.yml web"
         sh "docker stack ls"
         sh "docker service ls"
-        sh "docker service ps web_nginx"
+        //sh "docker service ps web_nginx"
         }
     }
   }
