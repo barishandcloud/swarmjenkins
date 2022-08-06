@@ -4,6 +4,6 @@ services:
     image: nginx
     ports:
       - 80:80
-	deploy:
+    deploy:
       restart_policy:
         condition: on-failure
